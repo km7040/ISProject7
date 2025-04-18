@@ -1,0 +1,89 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: whitesmoke;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.8);
+  padding: 10px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.navbar a {
+  color: #f5f5fd;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 30px
+}
+
+.masthead {
+  padding: 80px 20px;
+  background-color: rgba(0, 50, 0, 0.7);
+}
+
+.site-heading h1 {
+  font-size: 48px;
+  color: #fff;
+}
+
+.site-heading .subheading {
+  font-size: 24px;
+  color: #ddd;
+}
+
+.post-preview {
+  margin-bottom: 30px;
+}
+
+.post-preview h2 {
+  font-size: 30px;
+  color: #333;
+}
+
+.video-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.tableau-container {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+iframe {
+  border-radius: 10px;
+  box-shadow: 0 0 15px #001eff;
+}
+
+.headercolor{
+  background-color: blue
+}
+
+/* Remove glow or outline from embedded iframes */
+iframe {
+  box-shadow: none;
+  outline: none;
+  border: none;
+}
+
+
+.group-list {
+  padding-left: 20px;
+  list-style-position: inside; /* Moves the numbers closer to the text */
+}
+
+.group-list li {
+  margin-bottom: 15px;
+}
+
+.group-list ul {
+  margin-top: 5px;
+  margin-left: 20px;
+  list-style-type: disc;
+}
